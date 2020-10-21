@@ -1,0 +1,92 @@
+/* Colors and fronts */
+body{
+	background-color: rgb(204, 204, 255);
+	color: rgb(70,70,70);
+	font-family: open sans;
+	font-size: 18px;
+	font-weight: lighter;
+}	
+h1, h2 , h3 {
+	font-family: helvetica;
+}
+h1 {
+color: rgb(0,0,99);
+font-size:32px;
+font-weight:900
+}
+h2{
+color: rgb(0,0,128);
+font-size:32px;
+font-weight:900
+}
+a{
+	color: rgb(50,50,50);
+	font-size: 16px;
+	font-weight:300;
+	font-weight: lighter;
+	text-decoration: none;
+
+}
+a: hover {
+	color: purple;
+}
+
+/* Customs design with class */
+
+.container { 
+	width: 700px
+	margin: 40px auto;
+}
+
+@media (max-width: 500px) {
+	.container {
+		background-color: grey;
+	}
+}
+
+.card-white {
+	background: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgb(0,0,0,0.2);
+	border-radius:4px;
+	margin : 50px 50px ;
+	text-align: center;
+}
+.img-circles {
+	border-radius: 50%;
+}
+.btn-blue {
+	background-color: blue;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+.btn-black {
+	background-color: black;
+	color: white;
+	padding: 5px 10px;
+	border-radius: 4px;
+	margin-top:15px;
+}
+.btn-blue hover {
+	background-color: purple;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+	list-style: inline;
+}
+
+list-inline li {
+	display: inline;
+	padding: 0px;
+}
+list-inline i {
+	font-size:50px;
+	color: rgb(230,230,230);
+}
+
+#introduction {
+	margin-bottom: 10px;
+}
